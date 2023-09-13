@@ -2,7 +2,7 @@ body {
     font-family: Arial, Verdana;
     background-color: #000000;
     color: #ffffff;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
 }
 
 h1 {
@@ -18,13 +18,14 @@ h2 {
 
 p {
     font-size: 24px;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 0 10px;
 }
 
 img {
     width: 250px;
     margin: auto;
     border: 10px dashed #ffffff;
+    display: block;
 }
 
 div {
@@ -42,7 +43,7 @@ div {
 .red {
     background-color: #ff0000;
     text-align: right;
-    margin: 0 0 50px 0;
+    margin: 0 0 0 50px;
     border-bottom: 2px;
     border-left: 5px;
 }
@@ -62,7 +63,7 @@ div {
 .yellow {
     background-color: #ffff00;
     text-align: right;
-    margin: 0 0 50px 0;
+    margin: 0 0 0 50px;
     border-bottom: 2px;
     border-left: 5px;
 }
